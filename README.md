@@ -23,6 +23,57 @@ Project Modules:
 
 Module1:
 --------------------------------------------
+a) Data analysis
+
+--There are total 284807 obs.(rows) of  31 variables(cols)
+--Time,V1..V28,Amount,Class
+--So Class is label and other 30 cols are features.
+
+-- summary of each cloumns
+<table>
+  <tr>
+  <td></td>
+  <td>V1</td>
+  <td>V2</td>
+  <td>V3</td>
+  <td>V4</td>
+  <td>V5</td>
+  </tr>
+  <tr>
+  <td>Min</td>
+  <td>-56.40751</td>
+  <td>-72.71573</td>
+  <td>-48.3256</td>
+  <td>-5.68317</td>
+  <td>-113.74331</td>
+  </tr>
+  <tr>
+  <td>Max</td>
+  <td>2.45493</td>
+  <td>22.05773</td>
+  <td>9.3826</td>
+  <td>16.87534</td>
+  <td>34.80167</td>
+  </tr>
+  <tr>
+  <td>Mean</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  </tr>
+  <tr>
+  <td>StandardDeviation</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+</table>
+
+
 a) Populate correlation matrix </br>
 b) Visualize correlation matrix </br>
 
