@@ -41,8 +41,6 @@ a) Data analysis
   <td>V6</td>
   <td>V7</td>
   <td>V8</td>
-  <td>V9</td>
-  <td>V10</td>
   </tr>
   <tr>
   <td>Min</td>
@@ -54,8 +52,6 @@ a) Data analysis
   <td>-26.1605</td>
   <td>-43.5572</td>
   <td>-73.21672</td>
-  <td>-13.43407</td>
-  <td>-24.58826</td>
   </tr>
   <tr>
   <td>Max</td>
@@ -67,13 +63,9 @@ a) Data analysis
   <td>73.3016</td>
   <td>120.5895</td>
   <td>20.00721</td>
-  <td>15.59500</td>
-  <td>23.74514</td>
   </tr>
   <tr>
   <td>Mean</td>
-  <td>0.00000</td>
-  <td>0.00000</td>
   <td>0.00000</td>
   <td>0.00000</td>
   <td>0.00000</td>
@@ -89,6 +81,168 @@ a) Data analysis
   <td></td>
   <td></td>
   <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+  <td></td>
+  <td>V9</td>
+  <td>V10</td>
+  <td>V11</td>
+  <td>V12</td>
+  <td>V13</td>
+  <td>V14</td>
+  <td>V15</td>
+  <td>V16</td>
+  </tr>
+  <tr>
+  <td>Min</td>
+  <td>-13.43407</td>
+  <td>-24.58826</td>
+  <td>-4.79747</td>
+  <td>-18.6837</td>
+  <td>-5.79188</td>
+  <td>-19.2143</td>
+  <td>-4.49894</td>
+  <td>-14.12985</td>
+  </tr>
+  <tr>
+  <td>Max</td>
+  <td>15.59500</td>
+  <td>23.74514</td>
+  <td>12.01891</td>
+  <td>7.8484</td>
+  <td>7.12688</td>
+  <td>10.5268</td>
+  <td>8.87774</td>
+  <td>17.31511</td>
+  </tr>
+  <tr>
+  <td>Mean</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  </tr>
+  <tr>
+  <td>SD</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+  <td></td>
+  <td>V17</td>
+  <td>V18</td>
+  <td>V19</td>
+  <td>V20</td>
+  <td>V21</td>
+  <td>V22</td>
+  <td>V23</td>
+  <td>V24</td>
+  </tr>
+  <tr>
+  <td>Min</td>
+  <td>-25.16280</td>
+  <td>-9.498746</td>
+  <td>-7.213527</td>
+  <td>-54.49772</td>
+  <td>-34.83038</td>
+  <td>-10.933144</td>
+  <td>-44.80774</td>
+  <td>-2.83663</td>
+  </tr>
+  <tr>
+  <td>Max</td>
+  <td>9.25353</td>
+  <td>5.041069</td>
+  <td>5.591971</td>
+  <td>39.42090</td>
+  <td>27.20284</td>
+  <td>10.503090</td>
+  <td>22.52841</td>
+  <td>4.58455</td>
+  </tr>
+  <tr>
+  <td>Mean</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  </tr>
+  <tr>
+  <td>SD</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+  <td></td>
+  <td>V25</td>
+  <td>V26</td>
+  <td>V27</td>
+  <td>V28</td>
+  <td>Amount</td>
+  <td>Time</td>
+  </tr>
+  <tr>
+  <td>Min</td>
+  <td>-10.29540</td>
+  <td>-2.60455</td>
+  <td>-22.565679</td>
+  <td>-15.43008</td>
+  <td>0.00</td>
+  <td>0</td>
+  </tr>
+  <tr>
+  <td>Max</td>
+  <td>7.51959</td>
+  <td>3.51735</td>
+  <td>31.612198</td>
+  <td>33.84781</td>
+  <td>25691.16</td>
+  <td>172792</td>
+  </tr>
+  <tr>
+  <td>Mean</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>88.35</td>
+  <td>94814</td>
+  </tr>
+  <tr>
+  <td>SD</td>
   <td></td>
   <td></td>
   <td></td>
