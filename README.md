@@ -25,9 +25,9 @@ Module1:
 --------------------------------------------
 a) Data analysis
 
---There are total 284807 obs.(rows) of  31 variables(cols)
---Time,V1..V28,Amount,Class
---So Class is label and other 30 cols are features.
+--There are total 284807 obs.(rows) of  31 variables(cols)</br>
+--Time,V1..V28,Amount,Class</br>
+--So Class is label and other 30 cols are features.</br>
 
 -- summary of each cloumns
 <table>
@@ -38,6 +38,11 @@ a) Data analysis
   <td>V3</td>
   <td>V4</td>
   <td>V5</td>
+  <td>V6</td>
+  <td>V7</td>
+  <td>V8</td>
+  <td>V9</td>
+  <td>V10</td>
   </tr>
   <tr>
   <td>Min</td>
@@ -46,6 +51,11 @@ a) Data analysis
   <td>-48.3256</td>
   <td>-5.68317</td>
   <td>-113.74331</td>
+  <td>-26.1605</td>
+  <td>-43.5572</td>
+  <td>-73.21672</td>
+  <td>-13.43407</td>
+  <td>-24.58826</td>
   </tr>
   <tr>
   <td>Max</td>
@@ -54,6 +64,11 @@ a) Data analysis
   <td>9.3826</td>
   <td>16.87534</td>
   <td>34.80167</td>
+  <td>73.3016</td>
+  <td>120.5895</td>
+  <td>20.00721</td>
+  <td>15.59500</td>
+  <td>23.74514</td>
   </tr>
   <tr>
   <td>Mean</td>
@@ -62,9 +77,19 @@ a) Data analysis
   <td>0.00000</td>
   <td>0.00000</td>
   <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
+  <td>0.00000</td>
   </tr>
   <tr>
-  <td>StandardDeviation</td>
+  <td>SD</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
   <td></td>
   <td></td>
   <td></td>
