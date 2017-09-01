@@ -276,7 +276,7 @@ a) Data analysis
 
 The following digram is frequency of data for each class(0,1). It is clearly showed in the diagram that we have imbalanced data. 
 <img width="400" height="400" alt="df_bar_plot" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/imgdf_.jpeg"> 
-<b>[4] The followings are the ways to deal with imbalanced data
+<br><b>[4] The followings are the ways to deal with imbalanced data
   1) Class weights: impose a heavier cost when errors are made in the minority class<br>
   2) Down-sampling: randomly remove instances in the majority class<br>
   3) Up-sampling: randomly replicate instances in the minority class<br>
