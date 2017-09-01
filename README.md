@@ -268,9 +268,9 @@ a) Data analysis
 </table>
 
 <b>So from the above diagrams and figures we <br>
-  1) each column is spread through differently(too much flactuation) and
+  1) each column is spread through differently(too much flactuation)<br>
   [Standardization: rescaling data to have a mean(μ) of 0 and standard deviation(σ) of 1]
-  2) the columns with higher value(Time, Amount, V5 will dominate more)
+  2) the columns with higher value(Time, Amount, V5 will dominate more)<br>
   [Normalization: rescaling data into range of [0,1]]
 </b>
 
