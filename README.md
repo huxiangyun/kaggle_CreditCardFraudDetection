@@ -282,29 +282,14 @@ The following digram is frequency of data for each class(0,1). It is clearly sho
   3) Up-sampling: randomly replicate instances in the minority class<br>
   4) Synthetic minority sampling technique (SMOTE): down samples the majority class and synthesizes new minority instances by interpolating between existing ones<br> We will use SMOTE.<b>
 
-<img width="400" height="400" alt="sd_bar_plot" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/imgsd_.jpeg">
-
-a) Populate correlation matrix </br>
-b) Visualize correlation matrix </br>
 
 We have used R package called "corrplot"[1]. Here positive correlations are displayed in blue and negative correlations are displayed in red color. Color intensity and the size of the circle are proportional to the correlation coefficients. The legend color shows the correlation coefficients and the corresponding colors[2]. </br>
 
-From the below images, we can say that all the attributes are not co-related to each other. We can not ommit any one of them.
-<table>
-  <tr>
-  <td><img width="400" height="400" alt="correlation matrix - 2" src="https://goo.gl/by7Qwe"></td>
-  <td><img width="400" height="400" alt="correlation matrix - 2" src="https://goo.gl/a6RUu1"></td>
-  <td><img width="400" height="400" alt="correlation matrix - 3" src="https://goo.gl/ZAiwie"></td>
-  </tr>
-</table>
+<b>From the below images, we can say that all the attributes are not co-related to each other. We can not ommit any one of them.<b>
+<img width="400" height="400" alt="corr_plot" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/corr_.jpeg">
 
 
 Module2:
---------------------------------------------
-a) Co-variance matrix visualization</br> 
-Co-variance has different values for different scales of two features. To normalize covariance values, it is divided by the diversity range of both the features and scaled to a value within range of -1 to 1 which is called co-relation. So, covariance matrix visualization is redundant.
-
-Module3:
 --------------------------------------------
 a) Outlier analysis</br>
 b) Graphical representation</br>
@@ -395,6 +380,12 @@ To represent outliers , we have used boxplot diagrams, using plotly library in R
   <td><img width="200" height="250" alt="boxplot - 28" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V28.png"></td>
   <tr>
 </table>
+
+
+Module3:
+--------------------------------------------
+
+
 
 Resources and Links
 --------------------------------------------
