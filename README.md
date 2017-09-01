@@ -285,7 +285,7 @@ The following digram is frequency of data for each class(0,1). It is clearly sho
 
 We have used R package called "corrplot"[1]. Here positive correlations are displayed in blue and negative correlations are displayed in red color. Color intensity and the size of the circle are proportional to the correlation coefficients. The legend color shows the correlation coefficients and the corresponding colors[2]. </br>
 
-<b>From the below images, we can say that all the attributes are not co-related to each other. We can not ommit any one of them.<b>
+<b>From the below images, we can say that all the attributes are not co-related to each other. We can not ommit any one of them.</b>
 <img width="400" height="400" alt="corr_plot" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/corr_.jpeg">
 
 
