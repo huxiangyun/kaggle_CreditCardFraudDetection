@@ -33,3 +33,8 @@ vignettes/*.pdf
 *.knit.md
 
 *.csv
+*.xls
+*.xlsx
+
+*.jpeg
+*.png
