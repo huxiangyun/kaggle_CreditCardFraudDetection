@@ -389,7 +389,7 @@ To represent outliers , we have used boxplot diagrams, using plotly library in R
 Module3:
 --------------------------------------------
 
-Now the following figure is the scatter plot of the entire credit dataset.
+Now the following figure is the scatter plot of the entire credit dataset. From the figure, we can assume that logistic regression will result good.
 <img width="800" height="400" alt="pca" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/pca_.jpeg">
 
 
