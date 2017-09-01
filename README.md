@@ -252,6 +252,14 @@ a) Data analysis
   </tr>
 </table>
 
+<table>
+  <tr>
+  <td><img width="400" height="400" alt="max_bar_plot" src="https://goo.gl/by7Qwe"></td>
+  <td><img width="400" height="400" alt="min_bar_plot" src="https://goo.gl/a6RUu1"></td>
+  <td><img width="400" height="400" alt="mean_bar_plot" src="https://goo.gl/ZAiwie"></td>
+  <td><img width="400" height="400" alt="sd_bar_plot" src="https://goo.gl/ZAiwie"></td>
+  </tr>
+</table>
 
 a) Populate correlation matrix </br>
 b) Visualize correlation matrix </br>
