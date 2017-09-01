@@ -390,7 +390,7 @@ Module3:
 --------------------------------------------
 
 Now the following figure is the scatter plot of the entire credit dataset.
-<img width="400" height="400" alt="pca" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/pca_.jpeg">
+<img width="800" height="400" alt="pca" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/pca_.jpeg">
 
 
 Resources and Links
