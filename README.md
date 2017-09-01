@@ -274,7 +274,14 @@ a) Data analysis
   [Normalization: rescaling data into range of [0,1]]
 </b>
 
+The following digram is frequency of data for each class(0,1). It is clearly showed in the diagram that we have imbalanced data. <br> 
+<b>[4] The followings are the ways to deal with imbalanced data
+  1) Class weights: impose a heavier cost when errors are made in the minority class<br>
+  2) Down-sampling: randomly remove instances in the majority class<br>
+  3) Up-sampling: randomly replicate instances in the minority class<br>
+  4) Synthetic minority sampling technique (SMOTE): down samples the majority class and synthesizes new minority instances by interpolating between existing ones<br> We will use SMOTE.<b>
 
+<img width="400" height="400" alt="sd_bar_plot" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/imgsd_.jpeg">
 
 a) Populate correlation matrix </br>
 b) Visualize correlation matrix </br>
@@ -393,3 +400,4 @@ Resources and Links
 [1] http://www.sthda.com/english/wiki/visualize-correlation-matrix-using-correlogram </br>
 [2] https://jcasasr.wordpress.com/2015/10/20/plotting-correlations-matrices-in-r-package/ </br>
 [3] https://plot.ly/r/box-plots/
+[4] http://dpmartin42.github.io/blogposts/r/imbalanced-classes-part-1
