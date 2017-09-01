@@ -280,7 +280,7 @@ The following digram is frequency of data for each class(0,1). It is clearly sho
   1) Class weights: impose a heavier cost when errors are made in the minority class<br>
   2) Down-sampling: randomly remove instances in the majority class<br>
   3) Up-sampling: randomly replicate instances in the minority class<br>
-  4) Synthetic minority sampling technique (SMOTE): down samples the majority class and synthesizes new minority instances by interpolating between existing ones<br> We will use SMOTE.<b>
+  4) Synthetic minority sampling technique (SMOTE): down samples the majority class and synthesizes new minority instances by interpolating between existing ones<br> We will use SMOTE.</b>
 
 
 We have used R package called "corrplot"[1]. Here positive correlations are displayed in blue and negative correlations are displayed in red color. Color intensity and the size of the circle are proportional to the correlation coefficients. The legend color shows the correlation coefficients and the corresponding colors[2]. </br>
@@ -296,7 +296,7 @@ To represent outliers , we have used boxplot diagrams, using plotly library in R
 
 <b>
   1) outliers for class-0(not fraud) is way more than class-1(fraud). So we can know that fetures of fraud classes are following a pattern.
-  2) We also know that some of the features are rightly skewed(V1, V2, V8 etc.), some are leftly skewed(v7 etc.) but most of them follow normal distribution (V4, V11, V13, V15 etc.)
+  2) We also know that some of the features are rightly skewed(V1, V2, V8 etc.), some are leftly skewed(v7 etc.) but most of them follow normal distribution (V4, V11, V13, V15 etc.)</b>
   
 <table>
   <tr>
