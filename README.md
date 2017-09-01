@@ -267,6 +267,15 @@ a) Data analysis
   </tr>
 </table>
 
+<b>So from the above diagrams and figures we <br>
+  1) each column is spread through differently(too much flactuation) and
+  [Standardization: rescaling data to have a mean(μ) of 0 and standard deviation(σ) of 1]
+  2) the columns with higher value(Time, Amount, V5 will dominate more)
+  [Normalization: rescaling data into range of [0,1]]
+</b>
+
+
+
 a) Populate correlation matrix </br>
 b) Visualize correlation matrix </br>
 
