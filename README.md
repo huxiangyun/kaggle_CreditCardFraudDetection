@@ -254,6 +254,12 @@ a) Data analysis
 
 <table>
   <tr>
+  <td>MAX_BAR_PLOT</td>
+  <td>MIN_BAR_PLOT</td>
+  <td>MEAN_BAR_PLOT</td>
+  <td>SD_BAR_PLOT</td>
+  </tr>
+  <tr>
   <td><img width="400" height="400" alt="max_bar_plot" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/imgmax_.jpeg"></td>
   <td><img width="400" height="400" alt="min_bar_plot" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/imgmin_.jpeg"></td>
   <td><img width="400" height="400" alt="mean_bar_plot" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/imgmean_.jpeg"></td>
