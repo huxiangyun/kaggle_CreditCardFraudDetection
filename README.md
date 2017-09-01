@@ -292,92 +292,91 @@ We have used R package called "corrplot"[1]. Here positive correlations are disp
 Module2:
 --------------------------------------------
 a) Outlier analysis</br>
-b) Graphical representation</br>
 To represent outliers , we have used boxplot diagrams, using plotly library in R [3]. For each feature, boxplots for both "Fraud" class and "Normal" class are plotted separately. Histograms representing the distribution of each feature are also plotted.
 <table>
   <tr>
   <td><img width="200" height="250" alt="histogram - 1" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V1.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 1" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V1.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 1" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V1.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 2" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V2.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 2" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V2.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 2" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V2.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 3" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V3.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 3" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V3.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 3" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V3.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 4" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V4.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 4" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V4.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 4" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V4.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 5" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V5.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 5" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V5.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 5" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V5.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 6" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V6.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 6" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V6.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 6" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V6.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 7" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V7.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 7" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V7.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 7" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V7.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 8" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V8.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 8" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V8.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 8" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V8.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 9" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V9.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 9" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V9.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 9" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V9.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 10" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V10.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 10" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V10.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 10" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V10.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 11" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V11.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 11" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V11.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 11" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V11.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 12" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V12.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 12" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V12.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 12" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V12.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 13" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V13.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 13" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V13.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 13" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V13.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 14" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V14.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 14" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V14.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 14" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V14.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 15" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V15.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 15" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V15.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 15" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V15.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 16" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V16.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 16" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V16.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 16" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V16.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 17" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V17.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 17" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V17.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 17" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V17.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 18" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V18.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 18" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V18.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 18" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V18.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 19" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V19.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 19" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V19.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 19" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V19.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 20" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V20.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 20" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V20.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 20" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V20.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 21" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V21.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 21" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V21.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 21" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V21.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 22" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V22.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 22" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V22.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 22" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V22.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 23" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V23.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 23" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V23.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 23" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V23.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 24" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V24.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 24" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V24.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 24" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V24.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 25" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V25.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 25" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V25.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 25" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V25.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 26" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V26.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 26" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V26.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 26" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V26.jpeg"></td>
   <tr>
   <tr>
   <td><img width="200" height="250" alt="histogram - 27" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V27.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 27" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V27.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 27" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V27.jpeg"></td>
   <td><img width="200" height="250" alt="histogram - 28" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/h_V28.jpeg"></td>
-  <td><img width="200" height="250" alt="boxplot - 28" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/images/bx_V28.png"></td>
+  <td><img width="200" height="250" alt="boxplot - 28" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/box_V28.jpeg"></td>
   <tr>
 </table>
 
