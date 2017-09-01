@@ -295,7 +295,7 @@ a) Outlier analysis</br>
 To represent outliers , we have used boxplot diagrams, using plotly library in R [3]. For each feature, boxplots for both "Fraud" class and "Normal" class are plotted separately. Histograms representing the distribution of each feature are also plotted.
 
 <b>
-  1) outliers for class-0(not fraud) is way more than class-1(fraud). So we can know that fetures of fraud classes are following a pattern.
+  1) outliers for class-0(not fraud) is way more than class-1(fraud). So we can know that fetures of fraud classes are following a pattern.<br>
   2) We also know that some of the features are rightly skewed(V1, V2, V8 etc.), some are leftly skewed(v7 etc.) but most of them follow normal distribution (V4, V11, V13, V15 etc.)</b>
   
 <table>
@@ -389,6 +389,8 @@ To represent outliers , we have used boxplot diagrams, using plotly library in R
 Module3:
 --------------------------------------------
 
+Now the following figure is the scatter plot of the entire credit dataset.
+<img width="400" height="400" alt="pca" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/pca_.jpeg">
 
 
 Resources and Links
