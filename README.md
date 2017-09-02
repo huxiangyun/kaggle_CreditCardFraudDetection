@@ -393,9 +393,72 @@ Now the following figure is the scatter plot of the entire credit dataset. From 
 <img width="800" height="400" alt="pca" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/pca_.jpeg">
 
 
+Module4:
+--------------------------------------------
+Here We have divided the dataset into three paritions.
+1) training set, 2) validation set, 3) testing set
+First we divided the data set in to two part [training set(80%), testing set(20%)]
+
+Then, we use SMOTE[5] algorithm on training data set to get balanced data. We should not use SMOTE on testing set and it will be ised only once.
+
+Before SMOTE, training set has class_0-> 227451(99.8%)  class_1-> 395(0.17%)
+After SMOTE, training set has class_0-> 99868(49.0%)  class_1-> 100132(50%)
+
+Now, We need to divide the testing dataset into testing dataset and validation dataset. We will use k-fold(k=10) cross validation to find out best model.(best model means the model with optimal lambda value)  
+<b>"cv.glmnet"</b>[6,7] itself provides the cross validation and returns all the models and we can plot it to find the best lamda value.The lowest point(0.01) in the curve indicates the optimal lambda. The log value of lambda that best minimised the error in cross-validation.
+
+<img width="800" height="400" alt="pca" src="https://github.com/jaydeepchakraborty/kaggle_CreditCardFraudDetection/blob/master/img/crossV_.jpeg">
+
+
+The confusion matrix of our test data set is as follows and which is pretty good.
+
+<b>
+Confusion Matrix and Statistics
+
+          Reference
+Prediction     0     1
+         0 56228    12
+         1   636    85
+                                          
+               Accuracy : 0.9886          
+                 95% CI : (0.9877, 0.9895)
+    No Information Rate : 0.9983          
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0.2054          
+ Mcnemar's Test P-Value : <2e-16          
+                                          
+            Sensitivity : 0.9888          
+            Specificity : 0.8763          
+         Pos Pred Value : 0.9998          
+         Neg Pred Value : 0.1179          
+             Prevalence : 0.9983          
+         Detection Rate : 0.9871          
+   Detection Prevalence : 0.9873          
+      Balanced Accuracy : 0.9326          
+                                          
+       'Positive' Class : 0 </b>
+
+
+Module5:
+--------------------------------------------
+Following are the some information about Logistic regression
+
+We have used Regularization method for overfitting problem
+1) L1 Regularizer or Lasso
+2) L2 Regularizer or Ridge
+
+Some useful resources I looked upto while coding are as follows<br>
+a) https://github.com/evizitei/kaggle-credit-card-fraud/blob/master/CreditCardFraud.ipynb
+b) https://github.com/georgymh/ml-fraud-detection/blob/master/logistic-regression.ipynb
+
+
 Resources and Links
 --------------------------------------------
 [1] http://www.sthda.com/english/wiki/visualize-correlation-matrix-using-correlogram </br>
 [2] https://jcasasr.wordpress.com/2015/10/20/plotting-correlations-matrices-in-r-package/ </br>
 [3] https://plot.ly/r/box-plots/
 [4] http://dpmartin42.github.io/blogposts/r/imbalanced-classes-part-1
+[5] https://www.youtube.com/watch?v=Ho2Klvzjegg
+[6] http://www4.stat.ncsu.edu/~reich/BigData/code/glmnet.html
+[7] https://stats.stackexchange.com/a/121849
