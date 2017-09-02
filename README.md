@@ -399,9 +399,9 @@ Here We have divided the dataset into three paritions.
 1) training set, 2) validation set, 3) testing set
 First we divided the data set in to two part [training set(80%), testing set(20%)]
 
-Then, we use SMOTE[5] algorithm on training data set to get balanced data. We should not use SMOTE on testing set and it will be ised only once.
+Then, we use SMOTE[5] algorithm on training data set to get balanced data. We should not use SMOTE on testing set and it will be used only once.
 
-Before SMOTE, training set has class_0-> 227451(99.8%)  class_1-> 395(0.17%)
+Before SMOTE, training set has class_0-> 227451(99.8%)  class_1-> 395(0.17%)<br>
 After SMOTE, training set has class_0-> 99868(49.0%)  class_1-> 100132(50%)
 
 Now, We need to divide the testing dataset into testing dataset and validation dataset. We will use k-fold(k=10) cross validation to find out best model.(best model means the model with optimal lambda value)  
@@ -416,9 +416,9 @@ The confusion matrix of our test data set is as follows and which is pretty good
 Confusion Matrix and Statistics
 
           Reference
-Prediction     0     1
-         0 56228    12
-         1   636    85
+Prediction     0     1<br>
+         0 56228    12<br>
+         1   636    85<br>
                                           
                Accuracy : 0.9886          
                  95% CI : (0.9877, 0.9895)
@@ -442,7 +442,7 @@ Prediction     0     1
 
 Module5:
 --------------------------------------------
-Following are the some information about Logistic regression
+Following is the some information about Logistic regression
 
 We have used Regularization method for overfitting problem
 1) L1 Regularizer or Lasso
